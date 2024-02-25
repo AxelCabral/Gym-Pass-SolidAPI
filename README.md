@@ -5,6 +5,20 @@ Api Desenvolvida no Curso de NODE da RocketSeat usando os princípios de SOLID
 
 Gympass style app.
 
+## Tecnologias
+- NodeJS
+- NPM
+- ESLint
+- Vitest
+- TypeScript
+- Fastify
+- Prisma
+- PostgreSQL
+- Docker
+- JWT
+- GitHub Actions
+- Zod
+
 ## RFs (Requisitos Funcionais)
 
 - [X] Deve ser possível se cadastrar;
