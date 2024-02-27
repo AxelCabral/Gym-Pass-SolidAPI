@@ -38,7 +38,7 @@ describe('Register Use Case', () => {
     expect(isPasswordCorrectlyHashed).toBe(true)
   })
 
-  it('should bot be able to register with same email twice', async () => {
+  it('should not be able to register with same email twice', async () => {
     const email = 'emailtest@gmail.com'
 
     await sut.execute({
