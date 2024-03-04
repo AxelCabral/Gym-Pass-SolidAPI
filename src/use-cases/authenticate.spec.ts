@@ -37,7 +37,7 @@ describe('Authenticate Use Case', () => {
     ).rejects.toBeInstanceOf(InvalidCredencialsError)
   })
 
-  it('should not be able to authenticate with wrong email', async () => {
+  it('should not be able to authenticate with wrong password', async () => {
     await usersRepository.create({
       name: 'Axel Cabral',
       email: 'emailtest@gmail.com',
